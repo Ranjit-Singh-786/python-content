@@ -1,0 +1,11 @@
+name = list(range(1,11))
+# print(name)
+# print(name.index(3))
+name.insert(5,2)
+# print(name)
+# print(name.index(2,5))
+# copy method
+li = name2 = name.copy()
+# print(li)
+name.extend(li)
+print(li2)
