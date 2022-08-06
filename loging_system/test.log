@@ -1,0 +1,16 @@
+INFO:root:this is my first loging code
+INFO:root:this is my first loging code
+INFO:root:this is my first loging code
+INFO:root:2
+ERROR:root:there is chance of error
+INFO:root:2
+WARNING:root:there is possibility yha 2 list me ho hi na
+ERROR:root:there is chance of error
+INFO:root:2
+WARNING:root:there is possibility yha 2 list me ho hi na
+INFO:root:this is like as print statement
+ERROR:root:there is chance of error
+INFO:root:2
+WARNING:root:there is possibility yha 2 list me ho hi na
+INFO:root:this is like as print statement
+INFO:root:[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]

@@ -1,0 +1,48 @@
+ INFO root 2022-08-06 17:55:31,210 number entered by user 5 and 2 
+INFO root 2022-08-06 17:56:44,794 number entered by user 5 and 2 
+INFO root 2022-08-06 17:56:44,794 2.5
+INFO root 2022-08-06 17:57:17,747 number entered by user 5 and 2 
+INFO root 2022-08-06 17:57:17,747 2.5
+INFO root 2022-08-06 17:57:40,380 number entered by user 5 and 2 
+INFO root 2022-08-06 19:46:36,920 number entered by user 5 and 2 
+INFO root 2022-08-06 19:46:36,920 2.5
+INFO root 2022-08-06 19:46:57,846 number entered by user 5 and 0 
+INFO root 2022-08-06 19:52:00,618 number entered by user 5 and 2 
+INFO root 2022-08-06 19:52:00,618 we are going into function
+INFO root 2022-08-06 19:52:00,618 we have completed division funciton
+INFO root 2022-08-06 19:52:00,619 2.5
+INFO root 2022-08-06 19:53:37,431 number entered by user 5 and 2 
+INFO root 2022-08-06 19:53:37,431 we are going into function
+INFO root 2022-08-06 19:53:37,431 we have completed division funciton
+INFO root 2022-08-06 19:53:37,431 2.5
+INFO root 2022-08-06 19:53:37,432 None
+INFO root 2022-08-06 19:54:32,939 number entered by user 5 and 0 
+INFO root 2022-08-06 19:54:32,940 we are going into function
+INFO root 2022-08-06 19:56:20,204 number entered by user 5 and 0 
+INFO root 2022-08-06 19:56:20,204 we are going into function
+INFO root 2022-08-06 19:58:26,290 number entered by user 5 and 0 
+INFO root 2022-08-06 19:58:26,290 we are going into function
+ERROR root 2022-08-06 19:58:26,290 division by zero
+Traceback (most recent call last):
+  File "c:\Users\Ranjit Singh\Desktop\coding\pythn\loging_system\main3.py", line 11, in devide
+    div= a/b
+ZeroDivisionError: division by zero
+INFO root 2022-08-06 19:58:26,291 None
+INFO root 2022-08-06 20:01:02,535 number entered by user 5 and 0 
+INFO root 2022-08-06 20:01:02,535 we are going into function
+ERROR root 2022-08-06 20:01:02,535 division by zero
+Traceback (most recent call last):
+  File "c:\Users\Ranjit Singh\Desktop\coding\pythn\loging_system\main3.py", line 11, in devide
+    div= a/b
+ZeroDivisionError: division by zero
+INFO root 2022-08-06 20:04:30,655 number entered by user 5 and 0 
+INFO root 2022-08-06 20:04:30,655 we are going into function
+ERROR root 2022-08-06 20:04:30,655 division by zero
+Traceback (most recent call last):
+  File "c:\Users\Ranjit Singh\Desktop\coding\pythn\loging_system\main3.py", line 11, in devide
+    div= a/b
+ZeroDivisionError: division by zero
+INFO root 2022-08-06 20:04:56,205 number entered by user 8 and 2 
+INFO root 2022-08-06 20:04:56,206 we are going into function
+INFO root 2022-08-06 20:04:56,206 we have completed division funciton
+INFO root 2022-08-06 20:04:56,206 this is your result 4.0

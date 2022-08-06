@@ -1,0 +1,38 @@
+INFO root 2022-08-06 20:23:24,273 entered in try
+ERROR root 2022-08-06 20:23:24,274 [Errno 2] No such file or directory: 'sudh.txt'
+Traceback (most recent call last):
+  File "c:\Users\Ranjit Singh\Desktop\coding\pythn\loging_system\main5.py", line 5, in <module>
+    with open('sudh.txt','r'):
+FileNotFoundError: [Errno 2] No such file or directory: 'sudh.txt'
+INFO root 2022-08-06 20:24:43,573 entered in try
+ERROR root 2022-08-06 20:24:43,573 [Errno 2] No such file or directory: 'sudh.txt'
+Traceback (most recent call last):
+  File "c:\Users\Ranjit Singh\Desktop\coding\pythn\loging_system\main5.py", line 5, in <module>
+    with open('sudh.txt','r'):
+FileNotFoundError: [Errno 2] No such file or directory: 'sudh.txt'
+ERROR root 2022-08-06 20:24:43,575 [Errno 2] No such file or directory: 'sudh.txt'
+CRITICAL root 2022-08-06 20:24:43,576 critical section
+
+............
+
+INFO root 2022-08-06 20:25:41,853 entered in try
+ERROR root 2022-08-06 20:25:41,853 [Errno 2] No such file or directory: 'sudh.txt'
+Traceback (most recent call last):
+  File "c:\Users\Ranjit Singh\Desktop\coding\pythn\loging_system\main5.py", line 5, in <module>
+    with open('sudh.txt','r'):
+FileNotFoundError: [Errno 2] No such file or directory: 'sudh.txt'
+ERROR root 2022-08-06 20:25:41,853 [Errno 2] No such file or directory: 'sudh.txt'
+CRITICAL root 2022-08-06 20:25:41,853 critical section
+
+........ and now same program in critical mode level
+
+CRITICAL root 2022-08-06 20:28:08,513 critical section
+----> as you can see here i am able to see only critical messageINFO root 2022-08-06 20:29:55,116 entered in try
+
+ERROR root 2022-08-06 20:29:55,117 [Errno 2] No such file or directory: 'sudh.txt'
+Traceback (most recent call last):
+  File "c:\Users\Ranjit Singh\Desktop\coding\pythn\loging_system\main5.py", line 5, in <module>
+    with open('sudh.txt','r'):
+FileNotFoundError: [Errno 2] No such file or directory: 'sudh.txt'
+ERROR root 2022-08-06 20:29:55,117 [Errno 2] No such file or directory: 'sudh.txt'
+CRITICAL root 2022-08-06 20:29:55,117 critical section
