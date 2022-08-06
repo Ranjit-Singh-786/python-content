@@ -4,4 +4,4 @@ separated methods and separate terminology as well as in this repository some mi
 are present here and in the programs i used comments for better understanding<br>
 and inthis repository i covered all methods beginer to adavance level<br>
 and so on..<br>
-and i am working on this repository</p>
+</p>
