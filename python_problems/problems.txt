@@ -1,0 +1,56 @@
+Given a list of numbers, write a Python function to find the sum of all even numbers in the list.
+Write a Python function that takes a string input and returns the count of each character in the string as a dictionary.
+Implement a Python class for a simple stack data structure that supports push, pop, and peek operations.
+Given a sorted list of integers, write a Python function to find the index of a target value using binary search.
+Write a Python function to check if a given string is a palindrome (reads the same backward and forward) ignoring spaces and punctuation.
+Given a list of integers, write a Python function to find the maximum product of any three numbers in the list.
+Implement a Python function to reverse a linked list.
+Write a Python function to find the longest common prefix among a list of strings.
+Given a matrix represented as a list of lists, write a Python function to rotate it 90 degrees clockwise.
+Implement a Python function to find the first non-repeated character in a string.
+Reverse a sentence without reversing the words in Python.
+implement Binary Search Algorithym.
+Implement a Python function to calculate the power of a number without using the built-in ** operator.
+Write a Python program to find the common elements between two lists
+Given a list of integers, write a function to find the maximum sum of any two elements that are not adjacent to each other.
+# 15. pattern program
+# OUTPUT
+# enter row :- 5
+# * 
+# * *
+# * * *
+# * * * *
+# * * * * *
+
+# enter_no_row = int(input('enter row :- '))
+# for row in range(1,enter_no_row+1):
+#     for col in range(1,row+1):
+#         print('*',end=" ")
+#     print()
+
+
+enter row :- 5
+1 
+1 2
+1 2 3
+1 2 3 4
+1 2 3 4 5
+
+# enter row 8
+#        *
+#       * *
+#      * * *
+#     * * * *
+#    * * * * *
+#   * * * * * *
+#  * * * * * * *
+# * * * * * * * *
+
+
+enter row number :- 6
+* * * * * * 
+ * * * * *
+  * * * *
+   * * *
+    * *
+     *
