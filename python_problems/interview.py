@@ -1,3 +1,8 @@
+
+# >>>>> all are problems in one file. solution with problem definaton are given here<<<<<<<<<<<<<,
+# <<<<<<  just comment out the code, and try to understand the problem statemen and solution<<<<<
+
+
 # 1. Given a list of numbers, write a Python function to find the sum of all even numbers in the list.
 # def sum_of_even(lst):
 #     a = 0
@@ -514,3 +519,105 @@ from typing import List
 #     if a == 4:
 #         break
 #     a+=1
+
+
+
+# 29. find factorial
+
+# def factorial(num):
+#     if num==0 or num==1:
+#         return 1
+#     else:
+#         return num * factorial(num-1)
+# print(factorial(4) )
+
+# 30. find maximum of subarray
+
+# arr = [2,-5,3,-1,5,6,7,-4,3,2,-2]
+# dec = {}
+# maximum = 0
+# for i in arr:
+#     for j in range(i+1,len(arr)):
+
+#         current_sum = sum(arr[i:j])
+#         if maximum<current_sum:
+#             dec[current_sum] = arr[i:j+1]
+        
+# keys_list = list(dec.keys())
+# # print(keys_list)
+# maximum_sum_of_subarray = max(keys_list)
+# subarray = dec[maximum_sum_of_subarray]
+# print(f"this is the subarray :- {subarray}")
+# print(f"this is the max :- {maximum_sum_of_subarray}")
+
+
+# 31. Merge Two Sorted Arrays: Given two sorted arrays, write a Python 
+# function to merge them into a single sorted array without using any built-in 
+# functions or libraries.
+
+# def merge_arr(arr1,arr2):
+#     for i in range(len(arr2)):
+#         arr1.append(arr2[i])
+#     return arr1
+# ar = list(range(1,6))
+# ar2 = list(range(7,9))
+# mergearray = merge_arr(ar,ar2)
+# print(mergearray)
+
+# 32. Common Elements: Given two lists, write a Python function to find their common
+# elements and return them as a list.
+
+# l1 = [63,5,8,9,8,5,47,51,56,85,25,21]
+# l2 = [21,41,25,8,54,51,32,51,85,96,45]
+# temp_list = []
+# for i in range(0,len(l1)):
+    
+#     for j in range(0,len(l2)):
+#         if l1[i] == l2[j]:
+#             temp_list.append(l2[j])
+# print(f"this is like UNION ALL :- {temp_list}")
+# print(f"this is like UNION :- {set(temp_list)}")
+
+# 33.Reverse Integer: Write a Python function to reverse an integer,
+# considering overflow cases.
+
+# def reverse_integer(x):
+#     print(x,'\n')
+#     x = str(x)
+#     if x[0]=="-":
+#         print(x[1:])
+#     else:
+#         print(x[::-1])
+# reverse_integer(-254785)
+
+# 35.Longest Common Prefix: Write a Python function to find the longest common 
+# prefix of a list of strings
+
+input_list = ["apple", "app", "april", "aptitude"]
+def common_longest_prefix(input_list):
+    input_list.sort()  # to get sorted in ascending order based on len
+    reference = input_list[0]        # this is min length lenght element
+    common_prefix = ""
+    for i in range(len(reference)):
+        for j in range(1,len(input_list)):
+            if reference[i]!=input_list[j][i]:
+                return common_prefix
+            
+        common_prefix+=reference[i]
+    return common_prefix
+print(common_longest_prefix(input_list))
+
+
+# print(input_list)
+# print(type(input_list))
+# print(input_list[-1])
+# # print(input_list.append('r'))
+# le = ['mango']
+# input_list.extend(le)
+# print(input_list)
+# # print(input_list.pop())
+# input_list.remove('app')
+# print(input_list)
+# # del input_list[-1]
+# print(input_list)
+# print('apples' not in input_list)
