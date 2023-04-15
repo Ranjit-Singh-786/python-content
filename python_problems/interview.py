@@ -386,23 +386,131 @@ from typing import List
 # 22. remove all duplicate character from the sting,
 #  if you used set then it will maintain the order of the list
 
-exmpl = 'java'
-lis = []
-test = ''
+# exmpl = 'javaaakaallabhuktkdkakkkdldfglkgdgkdglg'
+# lis = []
+# test = ''
 
-for i in range(len(exmpl)):
-    lis.append(exmpl[i])
+# for i in range(len(exmpl)):
+#     lis.append(exmpl[i])
 
 
-    if exmpl.count(exmpl[i])<=1:
-        test+=exmpl[i]
-    elif exmpl.count(exmpl[i])==2 and exmpl[i] not in test:
-        test+=exmpl[i]
+    
+#     if exmpl[i] not in test:
+#         test+=" "+exmpl[i]
  
-st = list(set(lis))
-output = ' '.join(st)
-print('output get by two way ')
-print(f"output by set function :- {output}")
-print(f"output from scratch :- {test}")
+# st = list(set(lis))
+# output = ' '.join(st)
+# print('output get by two way ')
+# print(f"output by set function :- {output.upper()}")
+# print(f"output from scratch :- {test.upper()}")
+
+# 23. generate an infinite fibonacci series, by using generator
+# def febonacci_with_while():
+#     sum = 0
+#     n1 ,n2 = 0,1
+#     while True:
+#         print(sum,end=" ")
+#         n1 = n2
+#         n2 = sum
+#         sum = n1 + n2
+        
+# febonacci_with_while()
+# 24. sort a list without using sort builtin function in ascending order
+
+# def sort(lst):
+#     for i in range(0,len(lst)):
+#         for j in range(i+1,len(lst)):
+#             if lst[i]>lst[j]:   #<-- it is for ASC and use < for DESC.
+#                 temp = lst[i]
+#                 lst[i] = lst[j]
+#                 lst[j] = temp
+#     return lst
+# test_list = [25,14,52,45,65,85,47,85,124,5,95,25,48,54,96]
+# sorted_list = sort(test_list)
+# print(sorted_list)
+
+# 25. sort a dictionary and or sort a dictionary by using dictionary comprehension
+# my_dict = {'apple': 3, 'banana': 1, 'cherry': 2, 'date': 4}
+# # sort by key
+# new = {key:my_dict[key] for key in sorted(my_dict)}
+# print(new)
 
 
+# dictionary sort by value  
+
+# sorted_value = sorted(my_dict.values())
+# new_dic = dict()
+# for value in sorted_value:
+#   for key , val1 in my_dict.items():
+  
+#     if val1 == value:
+#       new_dic[key] = value
+# print(new_dic)
+
+
+
+
+
+
+
+# 26. create a fibonacci series by using recursion
+
+# def febonacci(num):
+#     n1,n2 = 0,1
+#     sum = 0
+#     for i in range(0,num):
+#         print(sum,end=" ")
+#         n1 = n2
+#         n2 = sum
+#         sum = n1 + n2
+# febonacci(7)
+
+
+# def febonacci_with_while():
+#     num = int(input('enter number :- '))
+#     sum = 0
+#     n1 ,n2 = 0,1
+#     i = 0
+#     while i < num:
+#         print(sum,end=" ")
+#         n1 = n2
+#         n2 = sum
+#         sum = n1 + n2
+#         i+=1
+# febonacci_with_while()
+
+
+# 27. find min and max element from the list without using any builtin function
+
+# def find(lst:List,min_or_max:str):
+
+#     if min_or_max=='min':
+#         min = lst[0]
+#         for i in range(1,len(lst)):
+            
+#             if min > lst[i]:
+#                 min = lst[i]
+#         return min
+#     elif min_or_max == 'max':
+#         max = lst[0]
+#         for j in range(1,len(lst)):
+            
+#             if max < lst[j]:
+#                 max = lst[j]
+#         return max
+# test_list = [25,14,52,45,65,1,47,85,1000,124,5,95,25,48,54,96]
+# min = find(test_list,'min')
+# print(min,'\n')
+# max = find(test_list,'max')
+# print(max)
+
+# 28. while prectise
+# a = 0
+# while (a <= 5):
+#     for i in range(0,5):
+#         print('jai bhim')
+#     print(a)
+
+#     if a == 4:
+#         break
+#     a+=1
